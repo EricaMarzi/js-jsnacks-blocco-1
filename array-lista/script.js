@@ -18,3 +18,17 @@ const fridge = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'c
 
 fridge.push ("pesca")
 
+const ingredientNeed = "cocomero"
+
+for (let i = 0 ; i < fridge.length ; i++) {
+    console.log(fridge[i])
+    console.log(ingredientNeed)
+    
+    if (ingredientNeed === fridge[i]){
+        console.log("Trovato! Devo solo preparare il cocktail.")
+        console.log ("__________________________________________")
+    } else {
+        console.log ("Oh no, devo uscire a comprare il cocomero!")
+        console.log ("__________________________________________")
+   }
+}
